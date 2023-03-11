@@ -1,0 +1,360 @@
+
+.coffeeHouseWrapper{
+    max-width:800px;
+left: 50%;
+transform: translateX(-50%);
+    position: absolute;
+    top: 450px;
+  width: 100%;
+    height: 500px;
+  
+   border: 5px solid rgba(252, 41, 41, 0.5);
+  
+ border-radius: 15% 15% 0 0;
+
+}
+.me {
+    width: 200px;
+    height: 400px;
+  position: absolute;
+ top: 91px;
+ right: 0;
+transform: translateX(-40px);
+}
+.coffeeHouseTitle {
+    font-size: 800;
+    font-family: 'Merienda';
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    font-size: 40px;
+    transform: translateY(20px);
+}
+.coffeeHouseText{
+    font-size: 400;
+    font-family: 'Merienda';
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: left;
+    max-width: 400px;
+    font-size: 20px; 
+    padding-left: 50px;
+    transform: translateY(60px);
+    line-height: 30px;
+}
+.coffeeRamka{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 520px;
+    top: 70px;
+   
+}
+.pngBeans {
+  transform: rotate(90deg);
+  width: 150px;
+  position: absolute;
+  left: -25px;
+  top: 365px;
+
+
+}
+.coffeeBorder1{
+    float: right;
+    transform: translateY(-40px);
+}
+.coffeeHr{
+    max-width: 200px ;
+    height: 5px;
+    background-color: black;
+    border: none;
+  box-shadow: 0px 4px 4px rgba(55, 55, 55, 0.25);
+    outline: none;
+    margin-top: 100px;
+}
+.heartOfCoffee1{
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+.heartOfCoffee{
+    width: 50px;
+    height: 50px;
+   
+}
+.hoc1{
+   position: absolute;
+   top: 410px;
+   left: 510px;
+}
+.heartOfCoffee2{
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    height: 50px;
+   
+}
+@media (max-width: 1050px){
+    .coffeeHouseWrapper{
+        transform: translateX(-300px);
+    }
+}
+@media (max-width: 800px){
+    .coffeeHouseWrapper{
+        transform: translateX(-150px);
+    }
+    .hoc1{
+       transform: translateX(-300px);
+    }
+    .coffeeRamka{
+        display: none;
+    }
+}
+@media (max-width: 650px){
+    .me{
+        width: 100px;
+        height: 200px;
+        top: 291px
+    }
+}
+@media (max-width: 600px){
+    .coffeeHouseWrapper{
+      /*  transform: translateX(-100px) */
+      margin-left: 150px;
+    }
+}
+@media (max-width: 500px){
+    .heartOfCoffee2{
+        top: 350px
+    }
+}
+@media (max-width: 470px){
+.coffeeHr {
+    display: none;
+}
+.heartOfCoffee1{
+    display: none;
+}
+}
+@media (max-width: 400px){
+   .coffeeHouseWrapper{
+    margin-left: 200px;
+   }
+}
+@media (max-width: 370px){
+.me{
+    width: 70px;
+    height: 140px;
+    top: 350px
+}
+}
+.podval{
+transform: translateY(1000px);
+}
+@media (max-width: 1000px){
+    .podval{
+        margin-left: 400px;
+    }
+}
+.coffeeHouseWrapperBlock{
+    position: absolute;
+    top: 500px;
+    width: 800px;
+    height: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid rgba(252, 41, 41, 0.5);
+  
+    border-radius: 15% 15% 0 0;
+}
+.mee{
+    width: 150px;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+   right: 0;
+}
+.gga1{
+    margin-top: 300px;
+}
+.coffeeWrapperRamka1 {
+width: 100px;
+height: 100px;
+position: absolute;
+left: 75%;
+transform: translateY(120px);
+}
+.pngWrapperBeans{
+  width: 150px;
+  height: 150px;
+  transform: rotate(90deg);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.coffeeHouseWrapperTitle {
+    max-width: 400px;
+    font-family: 'Merienda';
+    font-size: 900;
+    text-align: center;
+}
+.coffeeHouseWrapperText{
+    max-width: 80%;
+    width: 100%;
+    font-family: 'Merienda';
+    font-size: 700;
+    text-align: center;
+    transform: translateY(50px);
+    position: absolute;
+    padding-left: 10px;
+
+
+}
+
+@media (max-width: 817px){
+    .coffeeHouseWrapperBlock {
+        width: 700px;
+    }
+}
+@media (max-width: 715px){
+    .coffeeHouseWrapperBlock {
+        width: 600px;
+    }
+    .coffeeWrapperRamka1 {
+        left: 70%;
+    }
+    .coffeeHouseWrapperText {
+        max-width: 70%;
+        width: 100%;
+    }
+}
+@media (max-width: 613px){
+    .coffeeHouseWrapperBlock {
+        width: 500px;
+    } 
+    .coffeeHouseWrapperText {
+        max-width: 60%;
+        width: 100%;
+    }
+    .coffeeWrapperRamka1 {
+        left: 65%;
+    }
+}
+@media (max-width: 511px){
+    .coffeeHouseWrapperBlock {
+        width: 400px;
+    } 
+    .coffeeWrapperRamka1 {
+        left: 55%;
+    }
+}
+@media (max-width: 450px){
+  /*  .gga1 {
+        top: 1700px;
+    }
+    .footerOfTestProps{
+        top: 1700px;
+    } */
+} 
+@media (max-width: 402px){
+    .gga1 { 
+        margin-top: 400px;
+    }
+    .coffeeHouseWrapperBlock {
+        width: 300px;
+        height: 700px;
+    } 
+    .coffeeHouseWrapperText {
+        max-width: 100%;
+        padding-right: 10px;
+        width: 100%;
+    }
+    .coffeeWrapperRamka1 {
+        left: 35%;
+        transform: translateY(320px);
+    }
+   
+}
+
+.coffeeWrapperHr{
+    width: 160px;
+    height: 4px;
+    background-color: black;
+outline: none;
+border: none;
+box-shadow: 10px 5px 5px red;
+position: relative;
+top: 200px;
+/*text-align: center; */
+}
+.coffeeBorderBeans1 {
+    position: absolute;
+    right: 0;
+    transform: translateY(-40px);
+}
+.heartOfCoffeeWrapper1{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 100px;
+    top: 170px;
+}
+
+.heartOfCoffeeWrapper{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 50px;
+
+right: 0;
+}
+.heartOfCoffeeWrapper2{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 400px;
+    left: 450px;
+}
+@media (max-width: 676px){
+    .heartOfCoffeeWrapper2 {
+        left:300px;
+    }
+}
+@media (max-width: 617px){
+    .heartOfCoffeeWrapper1 {
+        top: 300px
+    }
+}
+@media (max-width: 514px){
+    .heartOfCoffeeWrapper2 {
+        left: 200px
+    }
+}
+@media (max-width: 402px){
+    .heartOfCoffeeWrapper2 {
+        left: 50px;
+        top: 500px
+    }
+    .heartOfCoffeeWrapper{
+        display: none;
+    }
+    .heartOfCoffeeWrapper1{
+        left:200px;
+    }
+}
+.cofHouseTitle {
+  /*  text-align: center;
+    color: #c41919;
+    font-family: 'Merienda';
+    font-size: 900; */
+    z-index: 222222222222222222222222222222222222222;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color:  #fff;
+    font-family: 'Merienda';
+    font-size: 40px;
+    font-weight: 900;
+    top: 200px;
+    white-space: nowrap;
+
+}

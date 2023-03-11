@@ -1,0 +1,276 @@
+/*.commentItem{
+    width: 100%;
+    background-color: rgb(25, 199, 225);
+  
+   position: relative;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow-x: hidden;
+  height: 200px;
+ 
+}*/
+.commentItem {
+  width: 100%;
+  background-color: rgb(172, 131, 248);
+  position: relative;
+  min-height: 200px;
+  overflow: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; 
+ /* &::-webkit-scrollbar {
+  
+  width: 0;
+  height: 0;
+  } */
+  }
+  .commentItem::-webkit-scrollbar { width: 0 !important } 
+.userLogoImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.commentUserName {
+margin-left: 50px;
+transform: translateY(-50px);
+}
+.commentUserComm {
+    position: absolute;
+    left: 60px;
+transform: translateY(-50px);
+white-space: wrap;
+max-width: 80%;
+width: 100%;
+}
+@media (max-width: 389px){
+  .commentUserComm{
+    max-width: 70%;
+    width: 100%;
+  }
+}
+.rateOfUsers {
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    margin-left:  200px;
+   transform: translateY(-140px);
+}
+.rateOfUser1{
+    width: 20px;
+    height: 20px;
+    display: none;
+   position: relative;
+ left: 170px;
+    transform: translateY(-67px);
+}
+.testLine {
+    display: flex;
+}
+.replyDiv{
+   
+    position: relative;
+   /* left: 95%; */
+   float: right;
+  /*top: -60px; */
+  top: -60px;
+    transform: rotate(90deg);
+    font-size: 40px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.buttonReply{
+    width: 100px;
+    height: 50px;
+   
+ position: absolute;
+ transform: rotate(-90deg);
+}
+.newDivButton{
+font-size: 20px;
+
+font-family: 'Merienda';
+background-color: rgb(185, 111, 246);
+width: 100px;
+height: 50px;
+cursor: pointer;
+}
+.newDiv{
+    transform: rotate(-90deg) translateY(-45px);
+
+}
+.commentsAddFormStyle{
+  /*  width: 100%;
+    max-width: 100%;
+    min-width: 100%; */
+    position: absolute;
+    height: 50px;
+    font-size: 15px;
+    width: 480px;
+    border-radius: 20px;
+background-color: rgb(244, 145, 242);
+    opacity: 1;
+    border: none;
+    outline: none;
+   
+transform: translateX(-1350px)  translateY(50px) ; 
+/*padding-top: 150px;*/
+}
+
+.commentAddFormButtonSend{
+width: 150px;
+height: 40px;
+background: linear-gradient(45deg, yellow, orangered);
+font-family: 'Merienda';
+color: #fff;
+font-weight: 700;
+transform: translateX(-850px)  translateY(50px)  ;
+/*padding-right: 700px;*/
+/*transform: translateX(-1400px);  */
+border:none;
+/*padding-top: 150px; */
+cursor: pointer;
+font-size: 15px;
+border-radius: 8px;
+
+position: absolute;
+}
+.commentAddFormButton{
+    width: 150px;
+    height: 40px;
+    background: linear-gradient(45deg, yellow, orangered);
+    font-family: 'Merienda';
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    transform: translateX(-680px)  translateY(50px) ;
+    cursor: pointer;
+    font-size: 15px;
+   border-radius: 8px;
+    position: absolute;
+    /*padding-top: 150px;*/
+    /*padding-right: 700px; */
+   /* position: absolute;
+       
+    left: 0; */
+    }
+  /*  .newDiv{
+    
+   position: absolute;
+   left: 0;
+        height: 60px;
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        display: flex;
+    } */
+@media (max-width: 1430px){
+  .commentsAddFormStyle{
+    transform: translateX(-1000px);
+top:50px;
+  }
+  .commentAddFormButton{
+    transform: translateX(-330px);
+    top: 50px;
+  }
+  .commentAddFormButtonSend {
+    transform: translateX(-500px);
+    top: 50px;
+  }
+}
+@media (max-width: 1100px){
+  .commentsAddFormStyle{
+    width: 300px;
+    transform: translateX(-800px);
+  }
+  .commentAddFormButton{
+    width: 100px;
+  }
+  .commentAddFormButtonSend{
+    width: 100px;
+    transform: translateX(-450px);
+  }
+}
+@media (max-width: 871px){
+  .commentsAddFormStyle{
+    width: 500px;
+    transform: translateX(-600px);
+  }
+  .commentAddFormButton{
+    top: 100px;
+    transform: translateX(-200px);
+  }
+  .commentAddFormButtonSend{
+    top: 100px;
+    transform: translateX(-310px);
+  }
+}
+@media (max-width: 676px){
+  .commentsAddFormStyle{
+    width: 400px;
+    transform: translateX(-500px);
+  }
+}
+@media (max-width: 576px){
+  .commentsAddFormStyle {
+   top: 100px;
+   transform: translateX(-400px);
+  }
+  .commentAddFormButton{
+    top: 150px;
+transform: translateX(-100px);
+  }
+  .commentAddFormButtonSend{
+    top: 150px;
+    transform: translateX(-220px);
+  }
+}
+@media (max-width: 472px){
+  .commentsAddFormStyle {
+    width: 300px;
+    transform: translateX(-350px);
+  }
+  .commentAddFormButton {
+    width: 75px;
+    height:25px;
+    transform: translateX(-120px);
+  }
+  .commentAddFormButtonSend {
+    width: 75px;
+    height:25px;
+  }
+}
+@media (max-width: 431px) {
+  .commentsAddFormStyle {
+    transform: translateX(-270px);
+  }
+  .commentAddFormButton{
+    transform: translateX(-50px);
+  }
+  .commentAddFormButtonSend {
+    transform:  translateX(-140px);
+  }
+}
+    .newDiv{
+   /*  transform: translateX(-1400px); */
+        height: 60px;
+        width: 100%;
+position: absolute;
+
+        display: flex;
+      }
+      
+      .logoUserStyle{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+      .typedTextParagrafStyle{
+        margin-left: 60px;
+        max-width: 90%;
+        width: 100%;
+       transform: translateY(-30px);
+      }
+      .userTitleStyle{
+        margin-left: 60px;
+        transform: translateY(20px);
+      }

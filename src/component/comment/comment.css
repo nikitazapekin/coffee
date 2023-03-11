@@ -1,0 +1,252 @@
+.commentTitle{
+    z-index: 1111111111111111111;
+    color: black;
+  white-space: nowrap;
+position: absolute;
+    cursor: pointer;
+    font-family: 'Merienda';
+    font-style: normal;
+    font-weight: 900;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 17px;
+    margin-top: 400px;
+   transform: translateX(-50%);
+   left: 50%;
+}
+.addRate{
+    width: 60%;
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    outline: none;
+    border:none;
+    height: 70px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 70px;
+    font-family: 'Merienda';
+    font-weight: 700;
+
+    font-size: 20px;
+}
+.ttttest{
+  position: absolute;
+  top: 1000px
+}
+.starRate {
+  display: flex;
+  position: absolute;
+  top: 525px;
+  left: 250px;
+  gap: 5px;
+}
+
+.greyStar{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.addStars{
+  z-index: 1111111111111111111;
+    color: black;
+  white-space: nowrap;
+position: absolute;
+    cursor: pointer;
+    font-family: 'Merienda';
+    font-style: normal;
+    font-weight: 900;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 17px;
+    margin-top: 500px;
+ left: 110px;
+}
+.submitComment{
+  position: absolute;
+  top: 700px;
+left: 100%;
+  width: 200px;
+  height: 75px;
+  background: linear-gradient(45deg, orangered, yellow);
+  color: #fff;
+  font-family: 'Merienda';
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: 100px;
+  cursor: pointer;
+  transition: 2s;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.submitComment:hover{
+  background: linear-gradient(45deg, yellow, orangered);
+  left: 52%;
+  
+}
+.warningComment {
+  position: absolute;
+ width: 50px;
+ height: 50px;
+ left: 60%;
+ 
+ transform: translateX(-50%);
+ top: 600px;
+ display: none;
+ cursor: pointer;
+}
+.comments{
+/*max-width: 100%;
+min-width: 100%; 
+width: 100%;
+background-color: rgb(25, 199, 225);
+height: 500px;
+
+margin: 0 auto;
+top: 850px; */
+/*max-width: 1439px;
+width: 100%;
+min-width: 100%;
+top: 850px; */
+/* position: absolute;
+left: 50%;
+transform: translateX(-50%);*/
+/*position: absolute; */
+/*margin: 0 auto;*/
+  max-width: 1439px;
+  width: 100%;
+ /* min-width: 100%; */
+
+  position: relative;
+  top: 850px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+.commentForm{
+  /*display: flex; */
+/*transform: translateY(-20px);*/
+/*position: absolute; */
+/*left: 60px; */
+/*transform: translateY(-50px); */
+/*white-space: wrap; */
+/*max-width: 90%;
+width: 100%; */
+/*height: auto; */
+/*min-height: 100%;
+background-color: blueviolet; */
+position: absolute;
+ /* left: 60px; */
+  transform: translateY(-50px);
+  max-width: 100%;
+  width: 100%;
+  /*height:auto;  */
+  min-height: 200px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  background-color: rgb(245, 203, 95);
+}
+.commentForm::-webkit-scrollbar { width: 0 !important } 
+.commentStyle{
+ 
+background-color: rgb(172, 131, 248);
+}
+.userImage{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.paragUser{
+
+
+  position: absolute;
+  left: 60px;
+transform: translateY(-20px);
+white-space:normal;
+max-width: 90%;
+width: 100%;
+}  
+.threeStyle{
+  position: absolute;
+ /* left: 95%; */
+ /*float: right;*/
+  transform: rotate(90deg);
+  left: 98%;
+ /* font-weight: 1000; */
+  font-size: 40px;
+  font-weight: 300;
+  top: 30px;
+  cursor: pointer; 
+ 
+}
+.commentFormStyle{
+  width: 1000px;
+  height: 1000px;
+  background-color: red;
+}
+.showValue{
+  width: 1000px;
+  height: 1000px;
+  background-color: red;
+}
+.titleUser{
+  position: absolute;
+  left: 60px;
+}
+.addedStarRate{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 120px;
+  transform: translateY(-50px);
+}
+
+@media (max-width: 573px){
+  .starRate {
+    left: 100px;
+  }
+}
+@media (max-width: 500px){
+  .commentTitle{
+   font-size: 15px;
+
+  }
+  .addStars {
+    font-size: 15px;
+  }
+  .greyStar{
+    left: 100px;
+    width: 25px;
+    height: 25px;
+  }
+  .submitComment {
+    width: 100px;
+    height: 50px;
+  }
+  .addRate{
+    width: 200px;
+    height: 35px;
+    font-size: 15px;
+    padding-left: 10px;
+  }
+}
+.commTitleOfPage {
+  /*  text-align: center;
+    color: #c41919;
+    font-family: 'Merienda';
+    font-size: 900; */
+    z-index: 222222222222222222222222222222222222222;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color:  #fff;
+    font-family: 'Merienda';
+    font-size: 40px;
+    font-weight: 900;
+    top: 200px;
+    white-space: nowrap;
+
+}

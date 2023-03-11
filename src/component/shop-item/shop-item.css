@@ -1,0 +1,80 @@
+.cards {
+    
+    display: grid;
+    gap: 71px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 210px);
+transform: translateY(-100px);
+}
+.card {
+cursor: pointer;
+    width: 220px;
+    height: 240px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    text-align: center;
+transition: 1s ease-in-out;
+}
+.cardImage {
+  margin: 0 auto;
+ padding-top: 5px;
+}
+.cardName {
+    
+font-family: 'Merienda';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+margin-top: 10px;
+color: #000000;
+
+}
+.cardCountry {
+    font-family: 'Merienda';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+text-align: right;
+margin-right: 27px;
+color: #000000;
+
+}
+.cardPrice {
+    
+font-family: 'Merienda';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+text-align: right;
+margin-right: 27px;
+color: #000000;
+
+}
+.shopItemButton{
+margin: 0 auto;
+width: 150px;
+height: 40px;
+background: linear-gradient(45deg, orangered, yellow);
+color: #fff;
+font-family: 'Merienda';
+font-size: 700;
+border-radius: 20px;
+border: none;
+cursor: pointer;
+transition: 2s ease-in-out;
+}
+.shopItemButton:hover{
+    background: linear-gradient(45deg, rgb(143, 240, 143),rgb(10, 117, 248));
+   transform: scale(1.1);
+    box-shadow:  0 0 35px  rgb(25, 235, 231);
+}
+.card:hover{
+    -webkit-box-shadow: 2px 2px 100px 61px rgba(34, 60, 80, 0.37);
+    -moz-box-shadow: 2px 2px 100px 61px rgba(34, 60, 80, 0.37);
+    box-shadow: 2px 2px 100px 61px rgba(34, 60, 80, 0.37);
+}

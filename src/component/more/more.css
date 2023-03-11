@@ -1,0 +1,388 @@
+.menu1 {
+    max-width: 1439px;
+    width: 100%;
+   
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menu1Image{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+}
+.navItems {
+    position: absolute;
+    z-index: 1111;
+    display: flex;
+    gap: 40px;
+    margin-left: 144px;
+    margin-top: 52px;
+    top: 0;
+}
+.navItem1 {
+    white-space: nowrap;
+    position: relative;
+font-family: 'Merienda';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 17px;
+/* identical to box height */
+cursor: pointer;
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.navItem1Img {
+    position: absolute;
+    top:-25px;
+    transform: translateX(-35px);
+}
+.aboutOurCompany {
+   
+    font-weight: 700;
+    font-family: 'Merienda';
+    color: #fff;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+    top: 200px;
+}
+
+
+
+
+
+
+.slider {
+    height: 100vh;
+    border-radius: 40px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    max-width: 1439px;
+  /*  max-width: 683px;
+    max-height: 384px;
+    width: 100%;
+    height: 100%; */
+    background-color: orangered;
+    overflow: hidden;
+    top: 700px;
+
+}
+.slider_container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    right: 0;
+    transition: 2s ease-in-out;
+}
+.image {
+  /*  object-fit: cover;
+   height: 100vh;
+    min-width: 100%;
+    max-width: 100%;*/
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+  height: 100vh;
+  filter: brightness(70%)
+}
+.slider_next {
+    position: absolute;
+    z-index: 11;
+    right: 0;
+    top: 0;
+    opacity: 0.5;
+
+}
+.slider_prev {
+    position: absolute;
+    z-index: 11;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+
+}
+.slider_next, .slider_prev {
+    cursor: pointer;
+    width: 100px;
+    height: 100vh;
+    font-size: 50px;
+    color: red;
+    background-color: orange;
+    transition: 3s;
+}
+
+.dots {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    bottom: 10%;
+    justify-content: center;
+    z-index: 111111;
+    margin:  0 auto;
+}
+.dot {
+    width: 50px;
+    height: 50px;
+    background-color: #a5a3a3;
+    border-radius: 50%;
+
+}
+
+.active {
+    background-color: orangered;
+}
+.active1 {
+    background-color: red;
+}
+.sliderDots {
+    display: flex;
+   left: 50%;
+   transform: translateX(-50%);
+   top: 90vh;
+    gap: 20px;
+    z-index: 111111111111111111111111111;
+    position: absolute;
+    top: 90%;
+
+}
+.sliderDot{
+    width: 50px;
+    height: 20px;
+    background-color: grey;
+    border-radius: 3px;
+}
+.sliderDotActive {
+    background-color: #fff;
+}
+.divImage {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.imageText {
+    font-family: 'Merienda';
+    font-size: 30px;
+    font-weight: 900;
+    position: absolute;
+    color: #fff;
+    top: 10px;
+    z-index: 111111111111111111111111111111111111111111111;
+    padding-left: 150px;
+    white-space: nowrap;
+    padding-top: 200px;
+}
+.sliderBtn {
+   
+    width: 200px;
+    top: 500px;
+   position: absolute;
+transform: translateX(900px);
+height: 50px;
+background: linear-gradient(45deg, yellow, orangered);
+font-family: 'Merienda';
+
+font-weight: 800;
+color: #fff;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+transition: 2s;
+}
+.sliderBtn:hover{
+    color: brown;
+}
+.aboutOurCompanyText {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    font-size: 700;
+    font-family: 'Merienda';
+    color: #fff;
+    top: 300px;
+    line-height: 30px;
+    font-size: 25px;
+text-align: center;
+
+}
+.moreLine {
+    display: flex;
+    gap:25px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 250px
+}
+.moreLineHr {
+    width: 60px;
+    height: 3px;
+    background-color: black;
+border: none;
+outline: none;
+}
+@media (max-width: 1000px){
+    .aboutOurCompany {
+        top: 100px;
+
+    }
+    .moreLine{
+        top: 130px
+    }
+    .aboutOurCompanyText {
+        top: 170px;
+        font-size: 20px;
+    }
+}
+@media (max-width: 700px){
+    .aboutOurCompanyText{
+        font-size: 15px;
+    }
+}
+@media (max-width: 1100px){
+    .slider{
+        top: 600px;
+    }
+}
+@media (max-width: 1200px){
+    .sliderBtn{
+        transform: translateX(700px);
+    }
+    .imageText{
+        max-width: 600px;
+        width: 100%;
+        font-size: 20px;
+
+    }
+}
+@media (max-width: 1000px){
+    .sliderBtn{
+        transform: translateX(600px);
+    }
+    .goBack{ 
+       /* top: 100px;*/
+      /* transform: translateY(-100px); */
+top: 100px;
+    }
+}
+@media (max-width: 900px){
+    .sliderBtn{
+        transform: translateX(400px);
+    }
+    .slider{
+        top: 550px
+    }
+}
+@media (max-width: 800px){
+    .slider{
+        top: 550px
+    }
+}
+@media (max-width: 730px){
+    .imageText{
+        max-width: 400px;
+        font-size: 15px;
+    }
+    .sliderBtn {
+        transform: translateX(300px);
+    }
+}
+@media (max-width:650px){
+    .menu1Img{
+        height: 350px;
+    }
+    .slider_next, .slider_prev {
+        width: 50px;
+    }
+    .imageText{
+        padding-left: 60px;
+    }
+}
+@media (max-width: 550px){
+    .slider {
+        height: 70vh;
+    }
+    .aboutOurCompany {
+        font-size: 15px;
+    }
+    .sliderBtn {
+        top: 400px;
+        transform: translateX(200px);
+    }
+    .slider_next, .slider_prev {
+        padding-bottom: 250px;
+    }
+    .navItems{
+        margin-left: 72px;
+    }
+}
+@media (max-width: 490px){
+    .imageText{
+        max-width: 250px;
+        height: 100px;
+        white-space: normal;
+        font-weight: 700;
+    }
+    .sliderDots{
+        gap: 10px;
+    }
+    .sliderDot{
+        width: 25px;
+        height: 10px;
+    }
+}
+@media (max-width: 450px){
+    .sliderBtn {
+        transform: translateX(100px);
+    }
+    .navItems{
+        margin-left: 30px;
+        gap: 20px
+    }
+}
+.goBack {
+    position: absolute;
+    width: 108px;
+    height: 36px;
+    
+    font-family: 'Merienda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    margin-top: 60px;
+    color:#fff;
+
+    cursor: pointer;
+   /* margin-top: 720px; */
+   border: 3px solid #fff;
+top: 350px;
+   background-color: transparent;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media (max-width: 1037px){
+    .menu1Img{
+        height: 475px;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .goBack{
+        top: 375px
+    }
+}
+@media (max-width: 1000px){
+    .goBack{
+        top: 200px
+    }
+}
+@media (max-width: 829px){
+    .goBack{
+        top: 250px
+    }
+}

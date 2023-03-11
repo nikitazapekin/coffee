@@ -1,0 +1,236 @@
+.registration {
+    max-width: 1439px;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(45deg, orangered, yellow);
+    opacity: 0.5;
+    position: absolute;
+border-radius:  40px;
+left: 50%;
+transform: translateX(-50%);
+}
+.registrationForm {
+    width: 500px;
+    height: 400px;
+    background-color: rgb(75, 75, 186);
+    position: absolute;
+    border-radius: 20% 10% 10% 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.regTitle {
+    text-align: center;
+    font-weight: 700;
+    color: #FFF;
+   font-family: 'Merienda';
+   margin-top: 50px;
+}
+.inputForms {
+    display: grid;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.regPassword, .regUser, .regMail {
+ width: 400px;
+ margin-top: 20px;
+ padding-left: 30px;
+ border: none;
+ outline: none;
+ border-radius: 5px;
+ height: 25px;
+ cursor: pointer;
+ box-shadow: inset 2px 2px 25px #888;
+}
+.regTitle2 {
+    margin-top: 150px;
+}
+.regItems {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+margin-top: 20px;
+}
+.regItem{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  transition: 2s ease-in-out;
+}
+.regItem:hover{
+    transform: translateX(3px);
+    width: 32px;
+    height: 32px;
+}
+.regImg {
+    border-radius: 50%;
+}
+.createAccount {
+    width: 400px;
+    height: 30px;
+    color:#fff;
+    background: linear-gradient(90deg, orangered, yellow);
+    transition: 2s ease-in-out;
+    font-weight: 500;
+    font-family: 'Merienda' ;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.createAccount:hover{
+    background: linear-gradient(90deg, yellow, orangered);
+    transition: 2s ease-in-out;
+}
+.regTitle3 {
+    cursor: pointer;
+}
+.regTxt{
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    color: #fff;
+    margin-top: 200px;
+    font-weight: 500;
+    font-family: 'Merienda' ;
+    margin-left: 200px;
+}
+
+.heart1 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    opacity: 0.8;
+    left: 100px;
+    top: 100px;
+   animation: anim 15s  infinite;
+
+}
+.heart2 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    opacity: 0.8;
+    left: 500px;
+    top: 450px;
+    animation: anim 15s  infinite;
+}
+@media (max-width: 1281px){
+    .heart1, .heart2 {
+height: 100px;
+width: 100px;
+    }
+}
+@keyframes anim {
+    50% {
+transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);  
+    }
+}
+.rregP {
+   margin-top: 45px;
+}
+@media (max-width: 1211px){
+    .regTxt{
+        margin-left: 100px;
+    }
+    .heart2 {
+        left: 400px
+    }
+}
+@media (max-width: 1034px){
+    .regTxt {
+        margin-left: 50px;
+    }
+    .heart2 {
+        left: 300px;
+    }
+   .registrationForm{
+    width: 400px;
+   }
+   .regPassword, .regUser, .regMail{
+    width: 300px;
+   }
+   .createAccount {
+    width: 300px;
+   }
+}
+@media (max-width: 915px){
+    .regTxt {
+        max-width: 300px;
+    }
+    .heart2{
+        left: 250px;
+    }
+    .heart1{
+        left: 20px
+    }
+}
+.userWarning{
+    position: absolute;
+    color: red;
+   top: 23px;
+    left: 100%;
+    white-space: nowrap;
+    transform: translateX(-120px);
+    display: none;
+}
+.mailLenn{
+    position: absolute;
+    color: red;
+   top: 23px;
+    left: 100%;
+    top: 68px;
+    white-space: nowrap;
+    transform: translateX(-120px);
+    display: none;
+}
+.eyy{
+    margin-top: 45px
+}
+.imageForUserInput {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 22px
+}
+.imageForMail {
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    top: 68px
+}
+
+@media (max-width:800px){
+    .userWarning{
+        font-size: 10px;
+        padding-left: 50px;
+    }
+    .mailLenn {
+        font-size: 10px;
+        padding-left: 40px;
+    }
+    .rregP{
+        font-size: 10px;
+        padding-left: 65px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

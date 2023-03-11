@@ -1,0 +1,156 @@
+.registration {
+    max-width: 1439px;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(45deg, orangered, yellow);
+    opacity: 0.5;
+    position: absolute;
+border-radius:  40px;
+left: 50%;
+transform: translateX(-50%);
+}
+.registrationForm {
+    width: 500px;
+    height: 400px;
+    background-color: rgb(75, 75, 186);
+    position: absolute;
+    border-radius: 20% 10% 10% 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.crAc1 {
+    margin-top: 110px;
+}
+.rreg{
+    margin-top: 180px;
+}
+.eyeOpen {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 67px;
+    left: 5px;
+    cursor: pointer;
+}
+.pasLen {
+    position: absolute;
+    color: red;
+    top: 67px; 
+    left: 100%;
+    white-space: nowrap;
+    transform: translateX(-150px);
+    display: none;
+}
+.mailLen{
+    position: absolute;
+    color: red;
+   top: 23px;
+    left: 100%;
+    white-space: nowrap;
+    transform: translateX(-150px);
+    display: none;
+}
+@media (max-width: 1034px){
+    .regTxt {
+        margin-left: 50px;
+    }
+    .heart2 {
+        left: 300px;
+    }
+   .registrationForm{
+    width: 400px;
+   }
+}
+@media (max-width: 915px){
+    .regTxt {
+        max-width: 300px;
+    }
+    .heart2{
+        left: 250px;
+    }
+    .heart1{
+        left: 20px
+    }
+}
+@media (max-width: 800px){
+    .regTxt{
+        max-width: 200px;
+    }
+    .registrationForm {
+        width: 300px;
+    }
+    .regPassword, .regUser, .regMail {
+        width: 200px;
+    }
+    .createAccount{
+        width: 200px;
+    }
+}
+@media (max-width: 650px){
+    .heart2 {
+        left: 200px
+    }
+}
+@media (max-width: 600px){
+    .registration {
+        height: 900px;
+    }
+    .registrationForm{
+        max-width: 100%;
+        width: 100%;
+        left: 0;
+        top: 30%;
+    }
+    .regTxt {
+        margin-top: 600px;
+        max-width: 90%;
+        width: 100%;
+        text-align: center;
+        padding-right: 20px;
+    }
+    .heart1, .heart2 {
+        width: 50px;
+        height: 50px;
+    }
+    .heart1{
+        margin-top: 700px;
+    }
+    .heart2{
+        margin-top: 100px;
+        margin-left: 300px
+    }
+}
+@media (max-width: 560px){
+    .heart2 {
+margin-left: 200px;
+    }
+}
+@media (max-width: 460px){
+    .heart2 {
+margin-left: 150px;
+    }
+}
+@media (max-width: 410px){
+    .heart2 {
+margin-left: 100px;
+    }
+}
+@media (max-width: 380px){
+    .heart2 {
+margin-left: 50px;
+    }
+}
+@media (max-width: 800px){
+    .ttr{
+        font-size: 10px;
+        padding-left: 65px;
+    }
+    .ttp{
+        font-size: 10px;
+        padding-left: 65px;
+    }
+
+}

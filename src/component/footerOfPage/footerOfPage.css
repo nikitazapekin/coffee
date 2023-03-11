@@ -1,0 +1,43 @@
+.footerOfPageItems{
+    position: absolute;
+    /*transform: translateX(-50%);
+    left: 50% */
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+   left: 50%;
+   transform: translateX(-50%);
+}
+.footerOfPageItem{
+    font-family: 'Merienda';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 17px;
+/* identical to box height */
+
+white-space: nowrap;
+color: #000000;
+}
+.footerBeansImage{
+    position: absolute;
+    transform: translateX(-25px);
+    top: -25px
+}
+.footerOfPageLine{
+display: flex;
+gap: 25px;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+top: 30px;
+
+}
+.footerOfPageHr{
+outline: none;
+border: none;
+width: 60px;
+height: 3px;
+background-color: #000000;
+
+}
